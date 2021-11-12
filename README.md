@@ -23,5 +23,6 @@ All parameters are optional
 - `-t` or `--title`
   - Sets the title of the graph 
 - `-e` or `--e` 
-  - Name of the file to export the data to. Do not include the extension. Outputs as `csv`
+  - Will output the `csv` file to the directory of the script.
+  - Name of the file to export the data to. Do not include the extension.
   - Not setting this will result in the program not exporting your data to a CSV. 
