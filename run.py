@@ -4,7 +4,6 @@ import MacTmp as mt
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
-import threading
 import sys, getopt
 import numpy
 import csv 
@@ -15,7 +14,6 @@ export_data = False
 export_filename = "data"
 current_time = 0
 measure_interval = 5.0
-q = queue.Queue()
 super_title = "Default Title"
 show_graph = False
 
